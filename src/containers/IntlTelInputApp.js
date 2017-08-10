@@ -211,7 +211,6 @@ export default class IntlTelInputApp extends Component {
     if (this.state.telInput.value !== nextState.telInput.value) {
       console.log("+++++++++++++++++++++++++++++++++++++++++")
       console.log("pppppppppppppppppppppppppppppppppppppppppp")
-      //this.notifyPhoneNumberChange(nextState.telInput.value);
     }
   }
 
