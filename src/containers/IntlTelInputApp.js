@@ -209,7 +209,9 @@ export default class IntlTelInputApp extends Component {
     }
 
     if (this.state.telInput.value !== nextState.telInput.value) {
-      this.notifyPhoneNumberChange(nextState.telInput.value);
+      console.log("+++++++++++++++++++++++++++++++++++++++++")
+      console.log("pppppppppppppppppppppppppppppppppppppppppp")
+      //this.notifyPhoneNumberChange(nextState.telInput.value);
     }
   }
 
@@ -1104,6 +1106,8 @@ export default class IntlTelInputApp extends Component {
         outerHeight: this.state.telInput.outerHeight,
       },
     });
+    this.notifyPhoneNumberChange(e.target.value);
+    console.log("------------------------------------------------;;;;;;;;;;tghthewotwkjtejl")
   }
 
   changeHighlightCountry(showDropdown, selectedIndex) {
